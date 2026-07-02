@@ -8,7 +8,7 @@ An interactive Power BI dashboard that analyzes telecom customer data to identif
 
 Customer churn — when a subscriber stops using a service — is one of the biggest revenue risks for subscription-based businesses. This project turns raw customer data into a churn probability score and risk category, then visualizes it in Power BI so that patterns (which contract types churn most, which services are riskiest, which customers to save first) are easy to spot at a glance instead of buried in a spreadsheet.
 
-**File:** `project\_1.pbix`
+**File:** `project\\\_1.pbix`
 
 \---
 
@@ -22,7 +22,7 @@ Customer churn — when a subscriber stops using a service — is one of the big
 
 ## 📁 Dataset
 
-The dashboard runs on a customer table (`powerbi\_churn\_data`) with the following fields:
+The dashboard runs on a customer table (`powerbi\\\_churn\\\_data`) with the following fields:
 
 |Column|Description|
 |-|-|
@@ -36,7 +36,7 @@ The dashboard runs on a customer table (`powerbi\_churn\_data`) with the followi
 |`ChurnProbability`|Model-predicted probability that the customer will churn|
 |`RiskCategory`|Risk bucket derived from `ChurnProbability` (e.g., Low / Medium / High)|
 
-> 📝 \*\*To fill in:\*\* add the original source of this dataset here (e.g., link to the Kaggle/IBM Telco Customer Churn dataset if that's what was used), and briefly describe how `ChurnProbability` and `RiskCategory` were generated — for example, "Predicted using a logistic regression / random forest model trained in Python on historical churn data, then imported into Power BI" or "Calculated using DAX logic based on tenure and contract type." This is the one part only you know the details of.
+> 📝 \\\*\\\*To fill in:\\\*\\\* add the original source of this dataset here (e.g., link to the Kaggle/IBM Telco Customer Churn dataset if that's what was used), and briefly describe how `ChurnProbability` and `RiskCategory` were generated — for example, "Predicted using a logistic regression / random forest model trained in Python on historical churn data, then imported into Power BI" or "Calculated using DAX logic based on tenure and contract type." This is the one part only you know the details of.
 
 \---
 
@@ -97,7 +97,7 @@ An action-ready view for the retention/sales team:
    git clone <your-repo-url>
    ```
 
-2. Open `project\_1.pbix` in **Power BI Desktop** (free download from Microsoft).
+2. Open `project\\\_1.pbix` in **Power BI Desktop** (free download from Microsoft).
 3. If the data source needs refreshing, go to **Home → Refresh**.
 4. Use the **page tabs** at the bottom (Executive Summary / Churn Analysis / Top Customers Likely to Churn) to navigate.
 5. Use the **slicers** on each page to filter by Contract, Internet Service, Gender, or Risk Category.
@@ -107,20 +107,12 @@ An action-ready view for the retention/sales team:
 ## 📂 Repository Structure
 
 ```
-├── project\_1.pbix     # Power BI report file
+├── project\\\_1.pbix     # Power BI report file
 └── README.md          # Project documentation (this file)
 ```
 
 \---
 
-## 📸 Screenshots
-
-> Add a few screenshots of each page here once exported from Power BI (File → Export → Export to Image, or a simple screen capture), so the dashboard is visible directly on GitHub without needing to open the file:
->
-> ```markdown
-> !\[Executive Summary](screenshots/executive-summary.png)
-> !\[Churn Analysis](screenshots/churn-analysis.png)
-> !\[Top Customers Likely to Churn](screenshots/top-customers.png)
 > ```
 
 \---
